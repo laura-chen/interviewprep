@@ -11,7 +11,7 @@ class HashTable:
         if self.size == self.capacity:
             return True
         return False
-        
+
     def add_key(self,key,value):
         if self.is_full:
             self.ensure_capacity()
