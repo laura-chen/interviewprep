@@ -1,5 +1,6 @@
 # A simple hash table implementation. Handles collisions by overwriting original
-# value at location in the hash table. (Could use chaining and linear probing.)
+# value at location in the hash table. (Chaining and linear probing are
+# better methods.) 
 
 class HashTable:
     def __init__(self, capacity):
