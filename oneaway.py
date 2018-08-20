@@ -22,11 +22,13 @@ def one_away_pointer(s1, s2):
             if difference:
                 return False
             difference = True
-            if len(shorter) == len(longer):
-                short_idx += 1
+            if len(shorter) == len(longer): #Replace operation. If this wasn't the case, there would have to be an insert. 
+                 short_idx += 1
         else: #Characters are the same
             short_idx += 1
         long_idx += 1
     if difference:
-        return False
+        return True
     return True
+
+print one_away_pointer("pale","ple")
