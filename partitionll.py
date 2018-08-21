@@ -9,10 +9,10 @@
 # Input: 3 -> 5 -> 8 -> 5 ->10 -> 2 -> 1[partition=5)
 # Output: 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8
 
-class Node(self, data):
-    def __init__:
-        self.data = 0
-        self.next = None
+class Node:
+    def __init__(self, data=None, next=None):
+        self.data = data
+        self.next = next
 
 def partition(node, pivot):
     head, tail = node, node
